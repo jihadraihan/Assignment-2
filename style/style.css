@@ -1,4 +1,6 @@
-
+.hide{
+    display: none;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -9,9 +11,17 @@
 }
 .nav-bar a{
     text-decoration: none;
+    color: #6B7280;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
     margin-right: 2em;
     padding-top: 20em;
 }
+.home {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
 .color{
     color: #E95A08;
 }
@@ -113,7 +123,7 @@ button{
     display: flex;
     margin-top: 5em;
     margin-left: 5em;
-    gap: 50px;
+    gap: 9em;
 
 }
 .plant-lover h3{
@@ -134,6 +144,42 @@ button{
     font-weight: 400;
     font-size: 1.25em;
     color: rgba(0, 0, 0, 0.5);
+}
+.deal-tittle h3{
+     font-size: 3em;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    margin-top: 4em;
+}
+.deal-tittle p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.5);
+    width: 70%;
+    margin-left: 18%;
+}
+.deal-layout{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    
+}
+.layout-img1{
+    background-image: url(../image/deal-bloom.png);
+}
+.layout-img2{
+    background-image: url(../image/deal-ana.png);
+}
+.main-layout{
+    background-image: url(../image/deal-zabo.png);
 }
 .join-section{
     margin-top: 5em;
@@ -168,15 +214,54 @@ button{
     width: 12.25em;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
-    
+    font-weight: 400;   
 }
-
-/* banner responsive for small device */
+footer{
+    margin-top: 3em;
+    margin-left: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    margin-bottom: 2em;
+    color: #6B7280;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100px;
+}
+.footer-links-1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100px;
+}
+footer h3{
+    max-width: 320px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+/*responsive for small device */
 @media screen and (max-width: 576px) {
-    .banner{
-        max-width: 10px;
-        margin-top: 30%;
-        flex-direction: column-reverse;
+
+    .nav-bar a{
+        display: none;
     }
+    .nav-bar{
+        margin-left: 0%;
+        padding-left: 0%;
+        justify-content: space-between;
+    }
+    
+   
 }
