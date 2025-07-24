@@ -20,6 +20,8 @@ button{
 }
 .banner{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 5em;
     margin-left: 4em;
     
@@ -109,9 +111,68 @@ button{
 }
 .plant-lover{
     display: flex;
+    margin-top: 5em;
+    margin-left: 5em;
+    gap: 50px;
+
+}
+.plant-lover h3{
+    max-width: 400px;
+    font-size: 2.5em;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-variation-settings:
+    "wdth" 100;
+}
+.plant-lover li{
+    max-width: 450px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.25em;
+    color: rgba(0, 0, 0, 0.5);
+}
+.join-section{
+    margin-top: 5em;
+    background-image: url(../image/news-letter-bg.png);
+    height: 500px;
+    justify-items: center;
+    align-content: center;
+    
+}
+.join-section h3{
+    font-size: 2.5em;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+    font-variation-settings:
+    "wdth" 100;
+}
+.join-section input{
+   margin-left: 26%; 
+   height: 3.15em;
+   width: 37.5em;
+   border: none;
+}
+.join-section button{
+    margin-left: -4px;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    height: 3.25em;
+    width: 12.25em;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    
 }
 
-/* banner responsive */
+/* banner responsive for small device */
 @media screen and (max-width: 576px) {
     .banner{
         max-width: 10px;
