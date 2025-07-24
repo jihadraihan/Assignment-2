@@ -22,7 +22,7 @@ button{
     display: flex;
     margin-top: 5em;
     margin-left: 4em;
-    max-height: 450px;
+    
 }
 .banner-img{
     margin-top: 8%;
@@ -79,14 +79,43 @@ button{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 5em;
-    margin-top: 4em;
+    margin-top: 5em;
+}
+.plant-card button{
+    align-items: center;
+    color: white;
+    border: none;
+    height: 3.75em;
+    width: 20.25em;
+    margin-bottom: 2em;
+}
+.plant-card p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 1.25em;
+    width: 70%;
+    margin-left: 26%;
+}
+.plant-card h3{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 1.25em;
+    width: 70%;
+    margin-left: 19.25%;
+}
+.plant-lover{
+    display: flex;
 }
 
 /* banner responsive */
 @media screen and (max-width: 576px) {
     .banner{
-        margin: 0px 0px;
-        margin-top: 80%;
+        max-width: 10px;
+        margin-top: 30%;
         flex-direction: column-reverse;
     }
 }
