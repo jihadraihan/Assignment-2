@@ -326,7 +326,7 @@ footer h3{
         gap: 10px;
     }
     .home-last{
-        margin-right: 30px;
+        margin-right: -12px;
     }
     .nav-bar{
         max-width: 400px;
@@ -342,7 +342,7 @@ footer h3{
         padding: 0;
     }
     .banner-img img{
-        margin-left: 10px;
+        margin-left: 90px;
         height: auto;
         width: 80%;
     }
@@ -356,22 +356,12 @@ footer h3{
     .banner-head{
         margin: 0;
     }
-    .img-badge{
-
-    }
     .banner-tittle p{
         width: 320px;
         font-size: 16px;
         margin-top: 2px;
         margin-left: 5px;
     }
-        /* .banner-head{
-            font-size: medium;
-            width: 20px;
-            height: 20px;
-            margin: 0;
-            padding: 0;
-        } */
     .plant-tittle h2{
         font-size: 33px;
     }
@@ -379,14 +369,14 @@ footer h3{
 
         font-size: 14px;
         width: 370px;
-        margin-left: 1px;
+        margin-left: 18px;
         /* margin-left: 25px; */
     }
     .plant-card{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 5em;
-        margin-left: 20px;
+        margin-left: 40px;
         gap: 3px;  
     }
     .plant-card img{
@@ -407,10 +397,10 @@ footer h3{
         margin-left: 20px;
     }
     .flower-store img{
-        width: 18em;
+        width: 25em;
         height: auto;
         margin-top: 100px;
-        margin-left: 10px;
+        margin-left: 2px;
     }
     .plant-lover h3{
         font-size: 25px;
