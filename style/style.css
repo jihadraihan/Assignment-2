@@ -391,7 +391,57 @@ footer h3{
         margin-left: 20px;
     }
     .flower-store img{
-        width: 20em;
+        width: 18em;
         height: auto;
+        margin-left: 10px;
     }
+    .plant-lover h3{
+        font-size: 25px;
+    }
+    .plant-lover ul>li{
+        font-size: 14px;
+        width: 200px;
+    }
+    .latest-deal-section{
+        text-align: center;
+    }
+    .deal-tittle h3{
+        font-size: 25px;
+    }
+    .deal-tittle p{
+        font-size: 14px;
+        width: 370px;
+    }
+    .deal-layout{
+        display: inline;
+    }
+    .main-layout{
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/deal-zabo.png);
+        min-width: 380px;
+        height: 160px;
+        margin-top: 15px;
+    }
+    .join-section{
+        /* margin-top: 5em; */
+        background-image: url(../image/news-letter-bg.png);
+        height: 330px;
+        width: 430px;
+    }
+    .join-section h3{
+        font-size: 25px;
+    }
+    .join-section input{
+        width: 50%;
+        margin-left: 70px;
+    }
+    .join-section button{
+        width: 20%;
+    }
+    footer{
+        display: inline;
+    }
+    footer h3{
+        font-size: 16px;
+    }
+   
 }
