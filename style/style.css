@@ -184,7 +184,7 @@ button{
     
 }
 .layout-img1{
-    background-image: url(../image/deal-bloom.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/deal-bloom.png);
     height: 10em;
     width: 25em;
     background-size: cover;
@@ -196,12 +196,11 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.6);
     position: relative;
     padding: 10px;
 }
 .layout-img2{
-    background-image: url(../image/deal-ana.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/deal-ana.png);
     height: 10em;
     width: 25em;
     background-size: cover;
@@ -213,7 +212,6 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-shadow: black;
     position: relative;
     padding: 10px;
     margin-top: 20px;
@@ -222,7 +220,7 @@ button{
     color: blanchedalmond;
 }
 .main-layout{
-    background-image: url(../image/deal-zabo.png);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../image/deal-zabo.png);
     min-width: 600px;
     height: 21em;
     background-size: cover;
@@ -233,7 +231,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-shadow: black;
     text-align: center;
     padding: 20px;
 }
@@ -390,5 +387,13 @@ footer h3{
     }
     .plant-card p{
         margin-left: 30px;
+    }
+    .plant-lover{
+        display: block;
+        margin-left: 20px;
+    }
+    .flower-store img{
+        width: 20em;
+        height: auto;
     }
 }
