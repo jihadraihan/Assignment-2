@@ -361,5 +361,34 @@ footer h3{
             margin: 0;
             padding: 0;
         } */
-        
+    .plant-tittle h2{
+        font-size: 33px;
+    }
+    .plant-tittle p{
+
+        font-size: 14px;
+        width: 370px;
+        margin-left: 1px;
+        /* margin-left: 25px; */
+    }
+    .plant-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5em;
+        margin-left: 20px;
+        gap: 3px;  
+    }
+    .plant-card img{
+        width: 150px;
+        height: auto;
+    }    
+    .plant-card button{
+        width: 150px;
+    }  
+    .plant-card h3{
+        margin-left: 20px;
+    }
+    .plant-card p{
+        margin-left: 30px;
+    }
 }
