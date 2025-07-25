@@ -82,6 +82,7 @@ button{
     font-variation-settings:
     "wdth" 100;
 }
+
 .plant-tittle p{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -128,6 +129,16 @@ button{
     width: 70%;
     margin-left: 20.25%;
 }
+.flower-store{
+    margin-top: -180px;
+}
+#img-badge img{
+    width: 35%;
+    margin-top: -8em;
+    margin-left: 360px;
+    position: relative;
+}
+
 .plant-lover{
     display: flex;
     margin-top: 5em;
@@ -136,6 +147,7 @@ button{
 
 }
 .plant-lover h3{
+    margin-left: -250px;
     max-width: 400px;
     font-size: 2.5em;
     font-family: "Noto Serif", serif;
@@ -146,6 +158,7 @@ button{
     "wdth" 100;
 }
 .plant-lover li{
+    margin-left: -250px;
     max-width: 450px;
     margin-bottom: 20px;
     font-family: "Inter", sans-serif;
@@ -343,6 +356,9 @@ footer h3{
     .banner-head{
         margin: 0;
     }
+    .img-badge{
+
+    }
     .banner-tittle p{
         width: 320px;
         font-size: 16px;
@@ -393,14 +409,17 @@ footer h3{
     .flower-store img{
         width: 18em;
         height: auto;
+        margin-top: 100px;
         margin-left: 10px;
     }
     .plant-lover h3{
         font-size: 25px;
+        margin-left: 10px;
     }
     .plant-lover ul>li{
         font-size: 14px;
         width: 200px;
+        margin-left: 2px;
     }
     .latest-deal-section{
         text-align: center;
@@ -442,6 +461,9 @@ footer h3{
     }
     footer h3{
         font-size: 16px;
+    }
+    #img-badge{
+        display: none;
     }
    
 }
